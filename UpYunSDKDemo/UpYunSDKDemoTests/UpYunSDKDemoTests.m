@@ -164,8 +164,10 @@
     
     upyun.bucket = @"test654123";
     upyun.passcode = @"0/8/1gPFWUQWGcfjFn6Vsn3VWDc=";
-    [upyun uploadFile:[UIImage imageNamed:@"image.jpg"] saveKey:@"/txt"];
+    [upyun uploadFile:[UIImage imageNamed:@"image.jpg"] saveKey:@"/image.jpg"];
     [self waitForExpectationsWithTimeout:60.0 handler:^(NSError *error) {
+        //"too many requests of the same uri
+        //travis
         if(error) {
             XCTFail(@"Expectation Failed with error: %@", error);
         }
