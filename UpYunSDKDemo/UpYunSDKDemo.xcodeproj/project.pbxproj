@@ -315,6 +315,9 @@
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = B8E9D5D117B0C79800146D00;
 					};
+					B8E9D5D117B0C79800146D00 = {
+						DevelopmentTeam = DCJ5V29KGG;
+					};
 				};
 			};
 			buildConfigurationList = B8E9D5CD17B0C79800146D00 /* Build configuration list for PBXProject "UpYunSDKDemo" */;
@@ -532,6 +535,7 @@
 		B8E9D5F017B0C79800146D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DCJ5V29KGG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UpYunSDKDemo/UpYunSDKDemo-Prefix.pch";
@@ -549,6 +553,7 @@
 		B8E9D5F117B0C79800146D00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DCJ5V29KGG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UpYunSDKDemo/UpYunSDKDemo-Prefix.pch";
