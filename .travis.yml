@@ -10,7 +10,7 @@ xcode_scheme: UpYunSDKDemo
 
 script:
 
-  xctool
+  xcodebuild
   -project UpYunSDKDemo/UpYunSDKDemo.xcodeproj
   -scheme UpYunSDKDemo
   -sdk iphonesimulator
