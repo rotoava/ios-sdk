@@ -1,5 +1,5 @@
 # UPYUN iOS SDK
-[![Build Status](https://travis-ci.org/upyun/ios-sdk.svg?branch=master)](https://travis-ci.org/upyun/ios-sdk)
+[![Build Status](https://travis-ci.org/rotoava/ios-sdk.svg?branch=master)](https://travis-ci.org/rotoava/ios-sdk)
 [![Latest Stable Version](https://img.shields.io/cocoapods/v/UPYUN.svg)](https://github.com/upyun/ios-sdk/releases)
 ![Platform](http://img.shields.io/cocoapods/p/UPYUN.svg)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](License.md)
